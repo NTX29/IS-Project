@@ -3,8 +3,9 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.svm import SVC
-import pandas as pd
+from sklearn.metrics import confusion_matrix, accuracy_score
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 
